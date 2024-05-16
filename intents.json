@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {
+      "tag": "köszönés",
+      "patterns": ["Szia", "Helló", "Valaki otthon van?", "Üdv", "Hali"],
+      "responses": ["Üdvözlöm", "Szia", "Helló"]
+    },
+    {
+      "tag": "búcsú",
+      "patterns": ["Viszlát", "Később találkozunk", "Viszontlátásra"],
+      "responses": ["Viszontlátásra", "Szép napot", "Viszlát! Gyere vissza máskor"]
+    },
+    {
+      "tag": "köszönet",
+      "patterns": ["Köszönöm", "Kösz", "Ez nagyon hasznos", "Köszönöm a segítséget"],
+      "responses": ["Örömmel segítettem!", "Bármikor!", "Örömömre szolgált", "Nagyon szívesen!"]
+    },
+    {
+      "tag": "rólunk",
+      "patterns": ["Ki vagy te?", "Mi vagy te?", "Te ki vagy?"],
+      "responses": ["Én Joana vagyok, a te bot segítőd", "Én Joana vagyok, egy Mesterséges Intelligens bot"]
+    },
+    {
+      "tag": "név",
+      "patterns": ["Mi a neved?", "Hogy hívnak?", "Hogy szólíthatlak?"],
+      "responses": ["Hívhatsz Joananak.", "Én Joana vagyok!", "Csak Joana néven szólíts"]
+    },
+    {
+      "tag": "segítség",
+      "patterns": ["Segíthetnél?", "Kérlek, segíts", "Tudsz nekem segíteni?", "Mit tudsz nekem nyújtani?", "Szükségem van segítségre", "Támogass kérlek"],
+      "responses": ["Mond el, hogy hogyan segíthetek neked", "Mond el a problémádat, hogy segíthessek neked", "Igen, természetesen. Hogyan tudok segíteni?"]
+    },
+    {
+      "tag": "fiók_létrehozás",
+      "patterns": ["Szeretnék létrehozni egy új fiókot", "Hogyan nyithatok egy új fiókot?", "Szeretnék létrehozni egy fiókot", "Tudnál nekem létrehozni egy fiókot?", "Hogyan nyithatok új fiókot?"],
+      "responses": ["Könnyedén létrehozhatsz egy új fiókot a weboldalunkon", "Csak menj el a weboldalunkra, és kövesd az útmutatót egy új fiók létrehozásához"]
+    },
+    {
+      "tag": "panasz",
+      "patterns": ["Van panaszom", "Szeretnék panaszt tenni", "Van panasz a szolgáltatásra"],
+      "responses": ["Kérem, írja le a panaszát, hogy segíthessünk", "Kérem, említse meg a panaszát, fel fogjuk venni Önnel a kapcsolatot, és elnézést kérünk az esetleges kellemetlenségekért"]
+    },
+	{
+	  "tag": "product_info",
+      "patterns": [
+		"Mi a termék ára?",
+		"Milyen funkciókat kínál a termék?",
+		"Hol találom meg a termék használati utasítását?"
+    ],
+      "responses": [
+		"A termék ára megtalálható a weboldalunkon.",
+		"A termék a következő funkciókat kínálja: ...",
+		"A termék használati utasítását a csomagolásban találod, vagy letöltheted a weboldalunkról."
+    ]
+	},
+	{
+      "tag": "order_info",
+      "patterns": [
+		"Hogyan rendelhetek?",
+		"Mennyi idő alatt érkezik meg a rendelésem?",
+		"Van lehetőség expressz szállításra?"
+    ],
+      "responses": [
+		"A rendelését könnyedén leadhatja a weboldalunkon keresztül.",
+		"A rendelés várható érkezési idejéről tájékoztatást küldünk Önnek e-mailben.",
+		"Igen, van lehetőség expressz szállításra, de ez plusz költséggel jár."
+    ]
+  },
+  {
+      "tag": "product_support",
+      "patterns": [
+		"Hogyan telepíthetem a terméket?",
+		"Hol találom meg a terméktámogatást?",
+		"Problémám van a termékkel, segíthet valaki?"
+    ],
+      "responses": [
+		"A termék telepítési útmutatóját megtalálja a csomagolásban vagy a weboldalunkon.",
+		"A terméktámogatást a weboldalunkon találja, vagy felveheti velünk a kapcsolatot az ügyfélszolgálaton keresztül.",
+		"Termékspecifikus problémával forduljon hozzánk a termék támogatásához."
+    ]
+  }
+  ]
+}
